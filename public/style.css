@@ -1,0 +1,19 @@
+#section-hero { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./hero-pic.jpg');
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-device-width:1200px){
+    #section-hero{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./hero-pic.jpg');
+        position: relative; 
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
