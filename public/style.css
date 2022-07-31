@@ -37,13 +37,8 @@
 
 @media only screen and (max-device-width:1200px){
     #section-hero{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./small-hero-pic.jpg');
         background-position: center;
-        position: relative; 
-        height: 100vh;
-        width: 100%;
-        background-size: cover;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
     .details{
         background-position: center;
