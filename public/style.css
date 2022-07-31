@@ -1,5 +1,5 @@
 #section-hero { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./hero-pic.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./hero-pic.jpg');
     position: relative; 
     height: 100vh;
     width: 100%;
@@ -7,13 +7,45 @@
     background-attachment: fixed;
 }
 
+.details {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("https://inhale-breather.s3.us-east-2.amazonaws.com/AdobeStock_84812500.jpeg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+  }
+
+  .detailsTitle::after {
+    content: "";
+    display: block;
+    width: 3em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: white;
+    opacity: 0.25;
+  }
+
+  .featuresTitle::after {
+    content: "";
+    display: block;
+    width: 3em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: black;
+    opacity: 0.25;
+  }
+
 @media only screen and (max-device-width:1200px){
     #section-hero{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./hero-pic.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./hero-pic.jpg');
+        background-position: center;
         position: relative; 
         height: 100vh;
         width: 100%;
         background-size: cover;
-        background-attachment: scroll;
+        background-attachment: fixed;
+    }
+    .details{
+        background-position: center;
     }
 }
