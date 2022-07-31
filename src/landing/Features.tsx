@@ -6,7 +6,7 @@ const Features = () => {
     <section style={{ marginTop: "3rem" }}>
       <Container>
         <Row>
-          <Col>
+          <Col xs={12} md={6}>
             <div
               style={{
                 display: "flex",

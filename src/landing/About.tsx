@@ -27,8 +27,7 @@ const About = () => {
               }}
             >
               <img
-                height={"300px"}
-                width={"300px"}
+                className="about-image"
                 src="https://inhale-breather.s3.us-east-2.amazonaws.com/img6.jpg"
               />
             </Col>

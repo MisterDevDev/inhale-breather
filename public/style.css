@@ -35,6 +35,11 @@
     opacity: 0.25;
   }
 
+  .about-image{
+    height: 300px;
+    width: 300px;
+  }
+
 @media only screen and (max-device-width:1200px){
     div {overflow-x: hidden;}
     body {overflow-x: hidden;}
@@ -44,5 +49,9 @@
     }
     .details{
         background-position: center;
+    }
+    .about-image{
+        height: 200px;
+        width: 200px;
     }
 }
